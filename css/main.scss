@@ -2,4 +2,24 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+}
+.header{
+    .logo{
+        position: relative;
+        .logo__image{
+            position: absolute;
+        }
+        .logo__image_centered{
+            left: 15px;
+        }
+        .logo__image_left{
+            left: 15px;
+            top: 25px;
+        }
+        .logo__image_right{
+            left: 43px;
+            top: 25px;
+        }
+    }
 }
