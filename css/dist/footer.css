@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .logo .logo__text {
+  font-size: 42px;
+}
+.footer .logo .logo__image_centered {
+  top: 10px;
+}
+.footer .logo .logo__image_left {
+  top: 34px;
+}
+.footer .logo .logo__image_right {
+  top: 34px;
+}

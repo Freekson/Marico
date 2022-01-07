@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.logo {
+  position: relative;
+  margin-left: 8%;
+  vertical-align: middle;
+}
+.logo .logo__image-block .logo__image {
+  position: absolute;
+}
+.logo .logo__image-block .logo__image_centered {
+  left: 15px;
+  top: 5px;
+}
+.logo .logo__image-block .logo__image_left {
+  left: 15px;
+  top: 29px;
+}
+.logo .logo__image-block .logo__image_right {
+  left: 43px;
+  top: 29px;
+}
+.logo .logo__text {
+  color: #fff;
+  font-size: 37px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 80px;
+}
+.logo .logo__email {
+  color: #707070;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+}
+
+.list {
+  color: #707070;
+  list-style-type: none;
+  display: flex;
+  font-size: 21px;
+  flex-basis: 30%;
+}
+.list .list__item {
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.list .list__item a {
+  text-decoration: none;
+  color: #707070;
+}
+.list .list__item .list__arrow {
+  margin-left: 10px;
+}
+.list .list__item_active a {
+  color: #3c82f4;
+}
+
+.login {
+  margin-right: 10%;
+  display: flex;
+}
+.login .button {
+  padding: 7% 10%;
+  border: none;
+}
