@@ -5,26 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/dist/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Marico</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <img src="css/source/header/Shape-3.svg" alt="sorry" class="logo__image logo__image_left">
-            <img src="css/source/header/Shape-5.svg" alt="sorry" class="logo__image logo__image_centered">
-            <img src="css/source/header/Shape-4.svg" alt="sorry" class="logo__image logo__image_right">
+            <div class="logo__image-block">
+                <img src="css/source/header/Shape-3.svg" alt="sorry" class="logo__image logo__image_left">
+                <img src="css/source/header/Shape-5.svg" alt="sorry" class="logo__image logo__image_centered">
+                <img src="css/source/header/Shape-4.svg" alt="sorry" class="logo__image logo__image_right">
+            </div>
             <p class="logo__text">Marico</p>
         </div>
         <ul class="list">
-            <li class="list__item">Use cases</li>
-            <li class="list__item">About</li>
-            <li class="list__item list__item_active">Pricing</li>
-            <li class="list__item">Blog</li>
+            <li class="list__item"><a href="#">Use cases </a><img src="css/source/header/Shape.svg" alt="sorry" class="list__arrow"></li>
+            <li class="list__item"><a href="#">About</a></li>
+            <li class="list__item list__item_active"><a href="#">Pricing</a></li>
+            <li class="list__item"><a href="#">Blog</a></li>
         </ul>
         <div class="login">
-            <div class="button">Login</div>
-            <div class="button button_blue">Sing up</div>
+            <button class="button">Login</button>
+            <button class="button button_blue">Sing up</button>
         </div>
     </header>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="logo">
+            <div class="logo__image-block">
+                <img src="css/source/header/Shape-3.svg" alt="sorry" class="logo__image logo__image_left">
+                <img src="css/source/header/Shape-5.svg" alt="sorry" class="logo__image logo__image_centered">
+                <img src="css/source/header/Shape-4.svg" alt="sorry" class="logo__image logo__image_right">
+            </div>
+            <p class="logo__text">Marico</p>
+            <div class="logo__email">info@marico.com</div>
+        </div>
+        <ul class="list">
+            <li class="list__item"><a href="#">Use cases </a></li>
+            <li class="list__item"><a href="#">About</a></li>
+            <li class="list__item list__item_active"><a href="#">Pricing</a></li>
+            <li class="list__item"><a href="#">Blog</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
