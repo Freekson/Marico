@@ -1,0 +1,26 @@
+//all variables
+$main-background-color: #000;
+$first-text-color: #fff;
+$second-text-color: rgba(112, 112, 112, 1);
+$third-text-color: rgba(60, 130, 244, 1);
+$first-background-color: rgba(48, 110, 247, 1);
+
+//footer
+.footer{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        .logo__text{
+            font-size: 42px;
+        }
+        .logo__image_centered{
+            top: 10px;
+        }
+        .logo__image_left{
+            top: 34px;
+        }
+        .logo__image_right{
+            top: 34px;
+        }
+    }
+}

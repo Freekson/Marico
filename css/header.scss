@@ -1,0 +1,83 @@
+//all variables
+$main-background-color: #000;
+$first-text-color: #fff;
+$second-text-color: rgba(112, 112, 112, 1);
+$third-text-color: rgba(60, 130, 244, 1);
+$first-background-color: rgba(48, 110, 247, 1);
+
+// header
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.logo{
+    position: relative;
+    margin-left: 8%;
+    vertical-align: middle;
+    .logo__image-block{
+        .logo__image{
+            position: absolute;
+        }
+        .logo__image_centered{
+            left: 15px;
+            top: 5px;
+        }
+        .logo__image_left{
+            left: 15px;
+            top: 29px;
+        }
+        .logo__image_right{
+            left: 43px;
+            top: 29px;
+        }
+    }
+    .logo__text{
+        color: $first-text-color;
+        font-size: 37px;
+        font-weight: bold;
+        margin: 0;
+        margin-left: 80px;
+    }
+    .logo__email{
+        color: $second-text-color;
+        width: 100%;
+        text-align: center;
+        font-size: 27px ;
+    }
+}
+.list{
+    color: $second-text-color;
+    list-style-type: none;
+    display: flex;
+    font-size: 21px;
+    flex-basis: 30%;
+    .list__item{
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        a{
+            text-decoration: none;
+            color: $second-text-color;
+        }
+        .list__arrow{
+            margin-left: 10px;
+        }
+    }
+    .list__item_active{
+        a{
+            color: $third-text-color;
+        }
+    }
+}
+.login{
+    margin-right: 10%;
+    display: flex;
+    .button{
+        padding: 7% 10%;
+        border: none;
+    }
+}
