@@ -1,25 +1,34 @@
+//all import files
+@import url(/css/dist/header.css);
+@import url(/css/dist/footer.css);
+
+//all variables
+$main-background-color: #000;
+$first-text-color: #fff;
+$second-text-color: rgba(112, 112, 112, 1);
+$third-text-color: rgba(60, 130, 244, 1);
+$first-background-color: rgba(48, 110, 247, 1);
+
+//body
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: $main-background-color;
+    font-family: 'Poppins', sans-serif;
 }
-.header{
-    .logo{
-        position: relative;
-        .logo__image{
-            position: absolute;
-        }
-        .logo__image_centered{
-            left: 15px;
-        }
-        .logo__image_left{
-            left: 15px;
-            top: 25px;
-        }
-        .logo__image_right{
-            left: 43px;
-            top: 25px;
-        }
-    }
+
+//buttons
+.button{
+    color: $second-text-color;
+    font-size: 20px;
+    white-space: nowrap;
+    background-color: $main-background-color;
+    border-radius: 5px;
+    border: 1px solid $second-text-color;
+}
+.button_blue{
+    background-color: $first-background-color;
+    color: white;
+    border: none;
 }
