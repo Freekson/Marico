@@ -1,24 +1,57 @@
+@import url(/css/dist/header.css);
+@import url(/css/dist/footer.css);
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
 }
 
-.header .logo {
-  position: relative;
+.main .article-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.header .logo .logo__image {
-  position: absolute;
+.main .article-block .article-block__header {
+  color: #3c82f4;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+  width: 70%;
 }
-.header .logo .logo__image_centered {
-  left: 15px;
+.main .article-block .article-bloc__paragraph {
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  width: 70%;
+  margin: 0;
 }
-.header .logo .logo__image_left {
-  left: 15px;
-  top: 25px;
+.main .article-block .article-block__text {
+  color: #707070;
+  font-size: 30px;
+  width: 70%;
+  margin-top: 0;
 }
-.header .logo .logo__image_right {
-  left: 43px;
-  top: 25px;
+.main .article-block .article-block__button {
+  font-size: 20px;
+  padding: 1% 2%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button {
+  color: #707070;
+  font-size: 20px;
+  white-space: nowrap;
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #707070;
+}
+
+.button_blue {
+  background-color: #306ef7;
+  color: white;
+  border: none;
 }
