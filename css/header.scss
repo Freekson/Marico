@@ -11,6 +11,15 @@ $first-background-color: rgba(48, 110, 247, 1);
     justify-content: space-between;
     align-items: center;
     margin-top: 1%;
+    .buttons-block{
+        margin-right: 10%;
+        display: flex;
+        .header__button{
+            border: none;
+            border-radius: 5px;
+            padding: 7% 10%;
+        }
+    }
 }
 
 .logo{
@@ -71,13 +80,5 @@ $first-background-color: rgba(48, 110, 247, 1);
         a{
             color: $third-text-color;
         }
-    }
-}
-.login{
-    margin-right: 10%;
-    display: flex;
-    .button{
-        padding: 7% 10%;
-        border: none;
     }
 }
