@@ -4,6 +4,15 @@
   align-items: center;
   margin-top: 1%;
 }
+.header .buttons-block {
+  margin-right: 10%;
+  display: flex;
+}
+.header .buttons-block .header__button {
+  border: none;
+  border-radius: 5px;
+  padding: 7% 10%;
+}
 
 .logo {
   position: relative;
@@ -61,13 +70,4 @@
 }
 .list .list__item_active a {
   color: #3c82f4;
-}
-
-.login {
-  margin-right: 10%;
-  display: flex;
-}
-.login .button {
-  padding: 7% 10%;
-  border: none;
 }
