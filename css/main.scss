@@ -65,6 +65,7 @@ body{
         }
         .description{
             margin-top: 2%;
+            white-space: nowrap;
             .circle{
                 width: 30px;
                 height: 30px;
@@ -86,40 +87,44 @@ body{
     }
     .advantages-block{
         text-align: center;
-        width: 100%;
+        margin-bottom: 10%;
         .advantages{
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             margin-top: 1%;
+            text-align: center;
+            width: 100%;
+            .advantages__item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 30%;
+                .text_white{
+                    font-size: 35px;
+                    font-weight: 600;
+                    white-space: nowrap;
+                }
+                
+            }
+            .advantages__image{
+                display: flex;
+                align-items: center;
+                margin-bottom: 1%;
+                img{
+                    width: 37px;
+                    height: 37px;
+                    margin-right: 5%;
+                }
+                .text_white{
+                    margin: 0;
+                }
+            }
         }
         .text_white{
             font-size: 75px;
             font-weight: bold;
+            margin-bottom: 5%;
         }
-        .advantages__item{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 30%;
-            .text_white{
-                font-size: 35px;
-                font-weight: 600;
-                white-space: nowrap;
-            }
-            .description{
-                width: 100%;
-            }
-        }
-        .advantages__image{
-            display: flex;
-            align-items: center;
-            img{
-                width: 37px;
-                height: 37px;
-                margin-right: 1%;
-            }
-        }
-
     }
 
 
@@ -164,7 +169,6 @@ body{
     .description{
         color: gray;
         font-size: 25px;
-        white-space: nowrap;
         position: relative;
     }
 
