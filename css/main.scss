@@ -48,7 +48,13 @@ body{
         .text_white{
             font-size: 40px;
             text-align: center;
-            width: 50%;
+            width: 60%;
+            margin: 0;
+            margin-bottom: 1%;
+        }
+        .text_big{
+            font-size: 100px;
+            font-weight: bold;
         }
         .buttons-block{
             width: 100%;
@@ -83,6 +89,11 @@ body{
                 font-size: 25px;
                 margin-left: 5%;
             }
+        }
+        .logo__image-block{
+           display: flex;
+           justify-content: center;
+           margin-top: 5%;
         }
     }
     .advantages-block{
