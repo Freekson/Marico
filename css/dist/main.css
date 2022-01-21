@@ -37,7 +37,13 @@ body {
 .main .main__article .text_white {
   font-size: 40px;
   text-align: center;
-  width: 50%;
+  width: 60%;
+  margin: 0;
+  margin-bottom: 1%;
+}
+.main .main__article .text_big {
+  font-size: 100px;
+  font-weight: bold;
 }
 .main .main__article .buttons-block {
   width: 100%;
@@ -69,6 +75,11 @@ body {
 .main .main__article .description .text_white {
   font-size: 25px;
   margin-left: 5%;
+}
+.main .main__article .logo__image-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 .main .advantages-block {
   text-align: center;
