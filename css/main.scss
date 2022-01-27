@@ -286,3 +286,12 @@ body{
         }
     }
 }
+
+
+//adaptive
+
+@media screen and(max-width: 1200px) {
+   .main{
+       display: none;
+   }
+}
