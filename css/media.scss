@@ -1,0 +1,14 @@
+//all variables
+$main-background-color: #000;
+$first-text-color: #fff;
+$second-text-color: rgba(112, 112, 112, 1);
+$third-text-color: rgba(60, 130, 244, 1);
+$first-background-color: rgba(48, 110, 247, 1);
+
+//adaptive
+
+@media screen and(max-width: 1200px) {
+    .main{
+        display: none;
+    }
+ }
