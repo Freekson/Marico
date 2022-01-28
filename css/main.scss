@@ -2,6 +2,7 @@
 @import url(/css/dist/header.css);
 @import url(/css/dist/footer.css);
 @import url(/css/dist/elements.css);
+@import url(/css/dist/media.css);
 
 //all variables
 $main-background-color: #000;
@@ -285,13 +286,4 @@ body{
             top: 20%;
         }
     }
-}
-
-
-//adaptive
-
-@media screen and(max-width: 1200px) {
-   .main{
-       display: none;
-   }
 }
