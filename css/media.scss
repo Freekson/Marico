@@ -12,3 +12,8 @@ $first-background-color: rgba(48, 110, 247, 1);
         display: none;
     }
  }
+ @media screen and(max-width: 720px) {
+    .main{
+        display: none;
+    }
+ }
