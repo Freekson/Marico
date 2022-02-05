@@ -9,16 +9,6 @@ $first-background-color: rgba(48, 110, 247, 1);
 
 @media screen and(max-width: 1200px) {
     .main{
-        display: none;
-    }
- }
- @media screen and(max-width: 720px) {
-    .main{
-        display: none;
-    }
- }
- @media screen and(max-width: 480px) {
-    .main{
-        display: none;
+        display: block;
     }
  }
