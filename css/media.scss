@@ -1,61 +1,47 @@
-//all import files
 @import url(/css/dist/header.css);
 @import url(/css/dist/footer.css);
 @import url(/css/dist/elements.css);
 @import url(/css/dist/main.css);
+@media screen and (max-width: 1200px) {
+  .main .double-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .double-block .double-block__text {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .main .double-block .double-block__text .buttons-block {
+    justify-content: center;
+  }
+  .main .double-block .double-block__text .text-block {
+    justify-content: center;
+  }
+  .main .double-block .double-block__image {
+    position: static;
+    display: block;
+  }
+  .main .double-block .double-block__image img {
+    position: static;
+  }
+  .main .double-block .double-block__image .under-image-block {
+    display: none;
+  }
+  .main .double-block_row {
+    flex-direction: row;
+    margin-top: 10%;
+  }
+  .main .main__article .text_big {
+    white-space: normal;
+  }
 
-//all variables
-$main-background-color: #000;
-$first-text-color: #fff;
-$second-text-color: rgba(112, 112, 112, 1);
-$third-text-color: rgba(60, 130, 244, 1);
-$first-background-color: rgba(48, 110, 247, 1);
+  body > main > div:nth-child(13) > p.text_white.text_big {
+    white-space: normal;
+    font-size: 80px;
+  }
 
-//adaptive
-
-@media screen and(max-width: 1200px) {
-    .main{
-        .double-block{
-            flex-direction: column;
-            align-items: center;
-            .double-block__text{
-                text-align: center;
-                margin-bottom: 5%;
-                .buttons-block{
-                    justify-content: center;
-                }
-                .text-block{
-                    justify-content: center;
-                }
-            }
-            .double-block__image{
-                position: static;
-                display: block;
-                img{
-                    position: static;
-                }
-                .under-image-block{
-                    display: none;
-                }
-            }
-        }
-        .double-block_row{
-            flex-direction: row;
-            margin-top: 10%;
-        }
-        .main__article{
-            .text_big{
-                white-space: normal;
-            }
-        }
-    }
-    body > main > div:nth-child(13) > p.text_white.text_big{
-        white-space: normal;
-        font-size: 80px;
-    }
-    .main .image-block_absolute .text_white{
-        margin: 0;
-        font-size: 20px;
-    }
- }
-
+  .main .image-block_absolute .text_white {
+    margin: 0;
+    font-size: 20px;
+  }
+}
